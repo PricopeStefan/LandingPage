@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<head>
+	<link rel="stylesheet" href="css/index.css" />
+	<script src="js/index.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	<button id="toggleSettings"><img src="img/settings-gears.svg" alt="Settings" style="width:50px"></button>
+
+	<div id="options">
+		<span>Number of circles: <span id="number_of_circles">50</span></span>
+  		<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+  		<span>Animation</span>
+  		<select id="dropdown">
+		  <option value="random">Random</option>
+		  <option value="snow">Snow</option>
+		</select>
+
+		<p id="credit">Icons made by 
+			<a href="https://www.flaticon.com/authors/elegant-themes">ET</a>, 
+			<a target="_blank" href="https://www.flaticon.com/authors/dave-gandy">Dave</a>, and 
+			<a target="_blank" href="https://www.flaticon.com/authors/freepik">Freepik</a> 
+			from <a target="_blank" href="https://www.flaticon.com"> flaticon.com</a>.
+		</p>
+  	</div>
+
+  	<div id="card">
+  		<div id="leftCardSide">
+  			<a target="_blank" href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Facebook"></a>
+  			<a target="_blank" href="https://github.com/"><img src="img/github.svg" alt="Github"></a>
+  			<a target="_blank" href="https://twitter.com/"><img src="img/twitter.svg" alt="Twitter"></a>
+  		</div>
+  		
+  		<div id="rightCardSide">
+
+  			<p id="name">Pricope Stefan-Cristian</p>
+  			<p id="title">-UBB CS Student-</p>
+  			<p id="contact">Contact:</p>
+
+  			<ul id="details">
+  				<li><span>Phone: ************</span></li>
+  				<li><span>Email: ******************@****.***</span></li>
+  				<li><span>Address: ************, *******</span></li>
+  			</ul>  	
+
+  		</div>
+  	</div>
+
+	<div id="canvasHolder">
+		<canvas id="mainCanvas"></canvas>
+		<script src="js/particles.js"></script>
+	</div>
+
+</body>
